@@ -6,3 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+package 'dmd' do
+  provider Chef::Provider::Package::Homebrew
+  action :install
+end
